@@ -1,0 +1,15 @@
+/*Informações sobre Docker e seus recursos*/
+
+DockerFile:{
+	Um DockerFile é um arquivo de texto que descreve as etapas que o Docker precisa realizar para
+	preparar/criar uma imagem, incluindo a instalação de pacotes, criação de diretórios e definições de
+	variáveis de ambiente e demais configurações.
+}
+
+Repositório/Imagem: {
+	
+}
+
+Containers: {
+	Containers tem o objetivo de realizar operações ou tarefas específicas. Um container tem um tempo de vida igual ao tempo de vida do processo que ele contém. um exemplo de container com tempo de vida definido é o container da imagem hello-world. Abra o terminal e execute o comando: <docker run hello-world>, em seguida, o comando <docker ps -a> revela que o STATUS da execução do container informa que o mesmo não está mais em execução. Se um processo dentro do container for interrompido, por um erro, por exemplo. o container também terá sua execução finalizada. um container não é interativo, ele apenas executa a tarefa que lhe foi delegada.
+}

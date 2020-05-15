@@ -1,0 +1,17 @@
+* <docker -v> Descobre a versão do docker; 
+* <docker run hello-world> Executar um hello world, útil para verificar se o Docker está funcionando corretamente;
+* <docker run [nome_repositorio]> Executar uma imagem;
+* <docker images> Lista todas as imagens contidas na máquina local; 
+* <docker images [nome_repositorio]> Lista todas as imagens contidas na máquina local relacionadas ao nome indicado;
+* <docker search [nome_repositorio]> Pesquisa por imagens no DockerHub que tenha o nome_repositorio fornecido ;
+* <docker pull [nome_repositorio]> baixa uma imagem do DockerHub ou do seu repositório privado no Docker Hub;
+* <docker rmi [nome_repositorio || id_repositorio]> Remove uma imagem da máquina local (O container coma imagem não pode estar rodando);
+
+* <docker run [nome_repositorio || id_imagem]> Inicia a execução de um container/imagem 
+* <docker stop [id_imagem]> para a execuçãod e um container/imagem;
+* <docker ps> Lista todas as imagens que estão em execução;
+* <docker ps -a> Lista todas as imagens que estão em execução e as que ja terminaram a execução;
+
+
+
+* <docker build [nome_repositorio]>
